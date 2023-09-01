@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #1f293d;
+    --secondary-color: #1f354b;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    display: flex;
+    background-color: var(--secondary-color);
+    height: 100vh;
+    color: white;
+    font-family: var(--font-poppins);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+aside {
+    background-color: var(--primary-color);
+    height: 100%;
+    width: 20%;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 5rem;
+
+    font-size: 2rem;
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+}
