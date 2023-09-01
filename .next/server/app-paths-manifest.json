@@ -1,5 +1,6 @@
 {
   "/page": "app/page.js",
   "/discover/page": "app/discover/page.js",
-  "/whitelist/page": "app/whitelist/page.js"
+  "/whitelist/page": "app/whitelist/page.js",
+  "/discover/[movieId]/page": "app/discover/[movieId]/page.js"
 }
